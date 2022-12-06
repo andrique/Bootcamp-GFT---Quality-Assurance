@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PBDGQ</projectKey>
+    <exportDate>2022-12-06 14:57:05 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="76439614" key="PBDGQ-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Andriele Putrique</createdBy>
+            <createdOn>2022-12-05 20:38:33 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues>
+                <issue>
+                    <key>PBDGQ-2</key>
+                    <summary><![CDATA[Como usuário deseja acessar a página de login na loja virtual a fim de visualizar opções de login, cadastro e redefinição de senha.]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[Verificar funcionalidade de login.]]></objective>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela de login
+
+And não esteja cadastrado no sistema
+
+When clicar em 'criar conta'
+
+Then será redirecionado para uma tela de criação de nova conta.]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="76442575" key="PBDGQ-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Andriele Putrique</createdBy>
+            <createdOn>2022-12-05 21:05:59 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues>
+                <issue>
+                    <key>PBDGQ-2</key>
+                    <summary><![CDATA[Como usuário deseja acessar a página de login na loja virtual a fim de visualizar opções de login, cadastro e redefinição de senha.]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Funcionalidade de login]]></name>
+            <owner>638a49df3c26ca7fa0d61957</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente sem cadastro deseja criar uma conta]]></description>
+                        <expectedResult><![CDATA[Cliente sem cadastro informa dados incorretos de acesso]]></expectedResult>
+                        <testData><![CDATA[Cliente sem cadastro tenta fazer login]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="76478019" key="PBDGQ-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Andriele Putrique</createdBy>
+            <createdOn>2022-12-06 13:47:53 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta step-by-step]]></name>
+            <objective><![CDATA[Verificar funcionalidade de login onde o cliente deseja acessar a p&aacute;gina do site e realizar o cadastro da conta para acesso.]]></objective>
+            <owner>638a49df3c26ca7fa0d61957</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente acessa a tela de login da loja virtual]]></description>
+                        <expectedResult><![CDATA[Cliente ser&aacute; redirecionado para uma tela de cria&ccedil;&atilde;o de nova conta]]></expectedResult>
+                        <testData><![CDATA[Cliente n&atilde;o esta cadastrado no sistema e clica em 'criar conta']]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="76478133" key="PBDGQ-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Andriele Putrique</createdBy>
+            <createdOn>2022-12-06 13:51:59 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Funcionalidade de login BDD]]></name>
+            <objective><![CDATA[Verificar quando o cliente n&atilde;o cadastrado tentar fazer login e informa dados incorretos de acesso]]></objective>
+            <owner>638a49df3c26ca7fa0d61957</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente sem cadastro deseja criar uma conta
+
+And tenta fazer login
+
+When informar dados incorretos de acesso
+
+Then aparecerá uma mensagem na tela 'Dados incorretos']]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

@@ -2,7 +2,7 @@
 
 >Atividades e desafios realizados durante o Bootcamp GFT - Quality Assurance Para Mulheres
 
-> Abaixo os módulos e cursos realizados no Bootcamp 👇:
+> Abaixo os módulos e cursos realizados no Bootcamp 👇
 
 ### *Fundamentos de Qualidade e Desenvolvimento de Software*
 - Introdução ao Mercado de Qualidade de Software
